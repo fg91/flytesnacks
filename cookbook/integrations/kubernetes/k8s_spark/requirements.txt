@@ -46,7 +46,7 @@ flytekit==0.30.0b3
     # via
     #   -r ../../../common/requirements-common.in
     #   flytekitplugins-spark
-flytekitplugins-spark==0.30.0b5
+flytekitplugins-spark==0.30.0b3
     # via -r requirements.in
 fonttools==4.28.5
     # via matplotlib
