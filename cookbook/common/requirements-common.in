@@ -1,3 +1,4 @@
-flytekit==0.30.0b4
+# flytekit==0.30.0b4
+https://github.com/flyteorg/flytekit/archive/b5bf0892a10a522cf3e9470473760807e71e0b20.zip#egg=flytekit
 wheel
 matplotlib
