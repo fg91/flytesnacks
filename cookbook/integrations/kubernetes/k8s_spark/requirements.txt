@@ -42,11 +42,11 @@ docstring-parser==0.13
     # via flytekit
 flyteidl==0.21.24
     # via flytekit
-flytekit==0.1.0a1
+flytekit==0.1.0a2
     # via
     #   -r ../../../common/requirements-common.in
     #   flytekitplugins-spark
-flytekitplugins-spark==0.1.0a1
+flytekitplugins-spark==0.1.0a2
     # via -r requirements.in
 fonttools==4.28.5
     # via matplotlib
