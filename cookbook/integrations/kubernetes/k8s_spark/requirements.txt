@@ -10,7 +10,6 @@ flytekit @ https://github.com/flyteorg/flytekit/archive/b5bf0892a10a522cf3e94704
     # via
     #   -r ../../../common/requirements-common.in
     #   flytekitplugins-spark
-flytekitplugins-spark @ https://github.com/flyteorg/flytekit/archive/b5bf0892a10a522cf3e9470473760807e71e0b20.zip#subdirectory=plugins/flytekit-spark
     # via -r requirements.in
 fonttools==4.28.5
     # via matplotlib
