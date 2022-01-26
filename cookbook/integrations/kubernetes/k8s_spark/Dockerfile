@@ -32,8 +32,6 @@ RUN python3 -m pip install --upgrade pip
 COPY k8s_spark/requirements.txt /root
 RUN pip install -r /root/requirements.txt
 
-RUN pip install -U --force-reinstall --ignore-installed https://github.com/flyteorg/flytekit/archive/b5bf0892a10a522cf3e9470473760807e71e0b20.zip#subdirectory=plugins/flytekit-spark&egg=flytekitplugins-spark
-
 # Adding Tini support for the spark pods
 RUN wget  https://github.com/krallin/tini/releases/download/v0.18.0/tini && \
     cp tini /sbin/tini && cp tini /usr/bin/tini && \
